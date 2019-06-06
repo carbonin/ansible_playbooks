@@ -8,7 +8,7 @@
 
   gather_facts: False
   roles:
-  - syncrou.manageiq-automate
+  - manageiq-core.manageiq-automate
 
   tasks:
     - name: "Set my_name in root without commit"

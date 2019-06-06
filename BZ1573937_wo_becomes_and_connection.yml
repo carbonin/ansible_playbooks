@@ -5,7 +5,7 @@
     - interval: 60
       manageiq_validate_certs: false
   roles:
-    - syncrou.manageiq-automate
+    - manageiq-core.manageiq-automate
 
   tasks:
     - name: Set a State Var IP

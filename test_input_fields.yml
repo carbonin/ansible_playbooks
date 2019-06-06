@@ -5,7 +5,7 @@
   - manageiq_validate_certs: False
     
   roles:
-  - syncrou.manageiq-automate
+  - manageiq-core.manageiq-automate
 
   tasks:
   - name: Debug Parameter Output

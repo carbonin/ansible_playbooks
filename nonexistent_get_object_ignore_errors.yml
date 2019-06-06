@@ -7,7 +7,7 @@
 
   gather_facts: False
   roles:
-  - syncrou.manageiq-automate
+  - manageiq-core.manageiq-automate
 
   tasks:
     - name: "Get missing attribute from non existent object and ignore error"

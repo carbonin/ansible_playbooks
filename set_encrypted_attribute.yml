@@ -7,7 +7,7 @@
 
   gather_facts: False
   roles:
-  - syncrou.manageiq-automate
+  - manageiq-core.manageiq-automate
 
   tasks:
     - name: "Set my_encrypted_name var in root"

@@ -7,7 +7,7 @@
 
   gather_facts: False
   roles:
-  - syncrou.manageiq-vmdb
+  - manageiq-core.manageiq-vmdb
 
   tasks:
     - name: "Update miq_request user message"

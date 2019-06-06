@@ -9,8 +9,8 @@
 
   gather_facts: False
   roles:
-  - syncrou.manageiq-automate
-# - syncrou.manageiq-vmdb
+  - manageiq-core.manageiq-automate
+# - manageiq-core.manageiq-vmdb
 
   tasks:
     - name: "Check an attribute"
